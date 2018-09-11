@@ -49,6 +49,6 @@ end
 # end
 
 def number_to_short_month_name(month)
-  number_to_short_month_name = {1=>"Jan", 2=>"Feb", 3=> "March", 9=> "September"}
+  number_to_short_month_name = {1=>"Jan", 2=>"Feb", 3=> "March", 9=> "September", 4=> "Apr"}
   return number_to_short_month_name[month]
 end
