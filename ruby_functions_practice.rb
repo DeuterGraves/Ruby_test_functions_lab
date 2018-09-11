@@ -20,3 +20,7 @@ end
 def divide (thing_1, thing_2)
   return thing_1 / thing_2
 end
+
+def length_of_string(test_string)
+  return test_string.length() 
+end
