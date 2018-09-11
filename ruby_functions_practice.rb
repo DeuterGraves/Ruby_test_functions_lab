@@ -16,3 +16,7 @@ def multiply(num_1,num_2)
   return num_1 * num_2
 
 end
+
+def divide (thing_1, thing_2)
+  return thing_1 / thing_2
+end
