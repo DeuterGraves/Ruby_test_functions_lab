@@ -52,3 +52,11 @@ def number_to_short_month_name(month)
   number_to_short_month_name = {1=>"Jan", 2=>"Feb", 3=> "March", 9=> "September", 4=> "Apr", 10=>"Oct"}
   return number_to_short_month_name[month]
 end
+
+def volume_of_cube(side)
+  side**3
+end
+
+def volume_of_sphere(radius)
+  return (Math::PI * 4.0/3.0 * radius**3).round(2)
+end
