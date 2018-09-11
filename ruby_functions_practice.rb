@@ -47,3 +47,8 @@ end
 #   months= {1=>"January", 2=>"February", 3=>"March"}
 #   return number_to_full_month_name_3[month]
 # end
+
+def number_to_short_month_name(month)
+  number_to_short_month_name = {1=>"Jan", 2=>"Feb", 3=> "March", 9=> "September"}
+  return number_to_short_month_name[month]
+end
