@@ -10,3 +10,9 @@ end
 def subtract(var_1, var_2)
   return var_1 - var_2
 end
+
+
+def multiply(num_1,num_2)
+  return num_1 * num_2
+
+end
