@@ -34,7 +34,7 @@ def add_string_as_number(string_1, string_2)
 end
 
 def number_to_full_month_name(month)
-  number_to_full_month_name = {1=>"January", 2=>"February", 3=> "March"}
+  number_to_full_month_name = {1=>"January", 2=>"February", 3=> "March", 9=> "September"}
   return number_to_full_month_name[month]
 end
 
